@@ -72,12 +72,10 @@ public class Vista
             int op2;
             String s = "\nQue desea hacer?\n" +
                         "1. Agregar  un  producto\n" +
-                        "2. Mostrar la categoría del producto\n" +
-                        "3. Mostrar  los  datos  del  producto\n" +
-                        "4. Mostrar  los  datos  del  producto por tipo\n" +
-                        "5. Mostrar el producto y la categoría de todo el inventario\n" +
-                        "6. Mostrar el producto y la categoría existentes\n" +
-                        "7. Regresar\n";
+                        "2. Mostrar  los  productos agregados\n" +
+                        "3. Buscar productos y la categoría de todo el inventario\n" +
+                        "4. Mostrar productos y la categoría de todo el inventario\n" +
+                        "5. Regresar\n";
             System.out.println(s);
             op2 = scan.nextInt();
 
